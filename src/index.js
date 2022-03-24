@@ -3,10 +3,11 @@ import ReactDOM from 'react-dom';
 import './index.css';
 import * as serviceWorkerRegistration from './serviceWorkerRegistration';
 import reportWebVitals from './reportWebVitals';
+import GifExpertApp from './GifExpertApp';
 
 ReactDOM.render(
   <React.StrictMode>
-    <App />
+    <GifExpertApp />
   </React.StrictMode>,
   document.getElementById('root')
 );
