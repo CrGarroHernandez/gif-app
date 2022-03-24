@@ -2,8 +2,6 @@ import React, { useState } from 'react';
 import { AddCategory } from './components/AddCategory';
 
 const GifExpertApp = () => {
-
-    // const categories = ['Marvel', 'DC'];
     const [categories, setCategories] = useState(['Marvel', 'DC']);
 
     return (
@@ -11,7 +9,6 @@ const GifExpertApp = () => {
             <h2>Un titulo</h2>
             <AddCategory />
             <hr/>
-
             <ol>
                 {
                     categories.map(category => {
