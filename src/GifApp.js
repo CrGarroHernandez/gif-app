@@ -7,7 +7,7 @@ const GifExpertApp = () => {
     return (
         <>
             <h2>Un titulo</h2>
-            <AddCategory />
+                <AddCategory setCategories={setCategories}/>
             <hr/>
             <ol>
                 {
