@@ -1,6 +1,11 @@
-import React from 'react'
+import React, { useState, useEffect } from 'react'
 
 export const GifGrid = ({category}) => {
+    
+
+    useEffect(() => {
+        getGifs();
+    }, []);
 
     const getGifs = async () => {
         const q = 'cr7';
@@ -18,13 +23,16 @@ export const GifGrid = ({category}) => {
         })
 
         console.log(gifs);
+        
     }
-
-        getGifs();
 
     return (
         <div>
             <h3>{category}</h3>
+
+
+
+
         </div>
     )
 }
