@@ -24,7 +24,7 @@ export const AddCategory = ({setCategories}) => {
             <input 
                 type="text" 
                 value={inputValue}
-                placeholder="Buscar Gif"
+                placeholder="Buscar Gif's"
                 onChange={handleInputChange}/>
             {/* <button>Agregar</button> */}
         </form>
